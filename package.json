@@ -1,0 +1,35 @@
+{
+  "name": "kickstarter-clone",
+  "version": "1.0.0",
+  "description": "Attempt to copy some of the functionality of a well known web 2 project 'Kickstarter' into a web 3 one",
+  "main": "routes.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paps94/Web3-Kickstarter.git"
+  },
+  "keywords": [
+    "Web3",
+    "Solidity",
+    "React"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paps94/Web3-Kickstarter/issues"
+  },
+  "homepage": "https://github.com/Paps94/Web3-Kickstarter#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "ganache": "^7.0.2",
+    "mocha": "^9.2.0",
+    "solc": "^0.8.11",
+    "web3": "^1.7.0"
+  }
+}
